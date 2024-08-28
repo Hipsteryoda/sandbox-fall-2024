@@ -1,6 +1,6 @@
 package com.sandbox.hello;
 
-public class Hello {
+public class World {
 
   public static void main(String[] args) {
     // Prints "Hello, World!" to the terminal window.
