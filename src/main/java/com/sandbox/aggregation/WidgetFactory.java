@@ -4,15 +4,15 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class WidgetFactory {
-
-  private List<Widget> widgets = new ArrayList<Widget>();
-
-  public WidgetFactory() {
-    this.widgets = new Widget();
-  }
-
-  public addWidget(Widget widget) {
-    widgets.add(widget);
-  }
-
+  //
+  //private list<widget> widgets = new arraylist<widget>();
+  //
+  //public widgetfactory() {
+  //  this.widgets = new widget();
+  //}
+  //
+  //public addwidget(widget widget) {
+  //  widgets.add(widget);
+  //}
+  //
 }
