@@ -55,5 +55,20 @@ public class ExceptionActivity {
         e.printStackTrace();
     }
 
+    Scanner scanner2 = null;
+    try {
+        scanner2 = new Scanner(System.in);
+    } finally {
+        if (scanner2 != null) {
+            scanner2.close();
+        }
+    }
+    
+    try (Scanner scanner3 = new Scanner(System.in)) {
+       // do something with scanner3
+    } catch (Exception e) {
+        e.printStackTrace();
+    }
+
   }
 }
