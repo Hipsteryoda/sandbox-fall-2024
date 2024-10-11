@@ -1,7 +1,3 @@
-// create a class Person that is comparable to other Person objects
-// include state for firstName, lastName, and age
-// include appropriate constructors, getters, and setters
-
 package com.sandbox.comparable;
 
 public class Person implements Comparable<Person> {
@@ -52,24 +48,6 @@ public class Person implements Comparable<Person> {
   // change the compareTo method to compare the last name, then the first name, then the age
   @Override
   public int compareTo(Person that) {
-    //if (this.lastName.compareTo(that.lastName) > 0) {
-    //  return 1;
-    //} else if (this.lastName.compareTo(that.lastName) < 0) {
-    //  return -1;
-    //} else {
-    //  if (this.firstName.compareTo(that.firstName) > 0) {
-    //    return 1;
-    //  } else if (this.firstName.compareTo(that.firstName) < 0) {
-    //    return -1;
-    //  } else {
-    //    if (this.age > that.age) {
-    //      return 1;
-    //    } else if (this.age < that.age) {
-    //      return -1;
-    //    }
-    //  }
-    //}
-    //return 0;
     int lastNameComparison = this.lastName.compareTo(that.lastName);
     if (lastNameComparison != 0) {
       return lastNameComparison;
