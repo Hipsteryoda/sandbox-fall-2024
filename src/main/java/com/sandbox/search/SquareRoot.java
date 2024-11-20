@@ -67,12 +67,6 @@ public class SquareRoot {
         return datum.mid;
     }
 
-    /**
-     * Used to determine if calculated square root is within tolerance.
-     *
-     * @param datum
-     * @return
-     */
     private static boolean outOfTolerance(Datum datum) {
         return (Math.abs(Math.pow(datum.mid, 2.0) - datum.number) >= datum.precision);
     }

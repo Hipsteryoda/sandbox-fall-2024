@@ -4,6 +4,18 @@ import java.util.Arrays;
 
 public class SortTest {
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    public static void main(String[] args) {
+
+        Integer[] arr = {5, 3, 1, 2, 4};
+        SortingUtility.selectionSort(arr);
+
+        Arrays.stream(arr).forEach(System.out::println);
+    }
+=======
+>>>>>>> UltimateSandbox-main
   public static void main(String[] args) {
     Integer[] data = { 3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5 };
 
@@ -35,4 +47,8 @@ public class SortTest {
 
     Arrays.stream(data5).forEach(System.out::println);
   }
+<<<<<<< HEAD
+=======
+>>>>>>> 9f6c683 (Sorting activity)
+>>>>>>> UltimateSandbox-main
 }
